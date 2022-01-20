@@ -1,0 +1,69 @@
+A1-it is:default
+   it is :5
+   it is :9
+
+A2- if(m==0) 
+ {
+   x=x+2;
+   System.out.printlm("X="x);
+ }
+ elseif(m==1)
+{
+   x=x+4;
+   System.out.printlm("X="x);
+}
+if(m==2)
+{
+   x=x+6;
+   System.out.printlm("X="x);
+}
+
+A3-Output when opn='b'--> Online Tutor
+  //                        Online Courses
+  //                        Invalid Input
+
+  // Output when opn='x'--> Invalid Input
+
+A4-1)-define 'p' before using it in switch case.
+   2)case3 cannot be defined second time again.
+
+
+
+A5-
+
+
+import java.util.*; 
+class HelloWorld 
+{
+     public static void main(String a[])
+     {
+         Scanner obj=new Scanner(System.in);
+         System.out.println("Enter the choice between 1 and 2!!");
+         int choice= obj.nextInt();
+         
+         switch(choice)
+         {
+             case 1:
+                 {
+                     System.out.println("Enter the radius:");
+                     double radius=obj.nextInt();
+                     double area=Math.PI*(radius*radius);
+                     System.out.println(area);
+                     break;
+                 }
+            case 2:
+                {
+                     System.out.println("Enter the length:");
+                     double length=obj.nextInt();
+                     System.out.println("Enter the breadth:");
+                     double breadth=obj.nextInt();
+                     double area1=length*breadth;
+                     System.out.println(area1);
+                     break;
+                }
+            default:
+              System.out.println("Invalid choice!!");
+         }
+         
+     }
+}
