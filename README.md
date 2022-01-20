@@ -1,1 +1,1 @@
-# JAVA-classes
+Java Training assigments 
